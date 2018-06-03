@@ -16,3 +16,186 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+
+body {
+    background-color: hsla(61,57%,56%,1);
+    margin: auto;
+    font-family: PT-Sans;
+    line-height: 1.8;
+    word-spacing: 10px;
+    word-wrap: break-word;
+    outline-offset: 15px;
+
+  }
+
+
+  h2{
+      text-align:center;
+      font-size: 30px;
+      font-family: PT-Sans;
+      margin-left: 20px;
+      margin: 25px 50px 75px 100px;
+      padding-top: 50px;
+      padding-right: 30px;
+      padding-bottom: 50px;
+      padding-left: 80px;
+      width: 300px;
+      padding:25px;
+     
+  }
+  h3{
+    left: 50%;
+    margin-right: -50%;
+      font-size: 30px;
+      
+      width: 300px;
+    
+      text-align:center;
+      padding-left: 650px;
+  }
+  h4{
+      text-align: center;
+      font-size: 30px;
+      font-family: PT-Sans; 
+      margin-left:20px;
+      margin: 25px 50px 75px 100px;
+      padding-top: 50px;
+      padding-right: 30px;
+      padding-bottom: 50px;
+      padding-left: 80px;
+      width: 300px;
+      padding:25px;
+      box-sizing: border-box;
+      height:100px;
+  }
+    /* text-transform: uppercase;*/
+p{
+   
+    font-family: PT-Sans;
+    font-size: 20px;
+    text-align:center;
+}
+
+h6{
+    text-align:center;
+    font-size:30px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #596952;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    padding-left:980px;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-size:15px;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #E4E64C;
+}
+
+.active {
+    background-color: #CDCF4F;
+} 
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+  
+}
+th , td {
+    padding: 15px;
+    text-align:center;
+    left: 50%;
+    margin-right: -50%;
+   
+}
+th{
+    text-align:left;
+
+}
+table {
+    border-spacing: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    position:center;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color: #fff;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}
+
+  footer   {order: 4;}
+
+  header    {background: #dba;}
+  .main     {background: #bca;}
+  footer    {background: #baa;}
+  .aside-1  {background: #cab;}
+  .aside-2  {background: #bad;}
+  
+.facebook{
+    float:right;
+    border-radius:50%;
+}
+.twitter{
+    float:right;
+    border-radius:50%; 
+}
+.index{
+    float:center;
+    border: 10px solid #ddd;
+    border-radius: 4px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+   
+}
+
+.geert{
+    border-radius: 150%;
+   padding-left:300px;
+  
+}
+.koen{
+    border-radius: 100%;
+
+}
+.stijn{
+    border-radius: 100%;
+
+}
+.contact{
+    text-align:center;
+    padding-left:470px;
+    font-size:40px;
+}
